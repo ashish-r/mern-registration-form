@@ -9,7 +9,7 @@ const port = process.env.PORT || 8080
 app.use(cors())
 app.use(express.json())
 
-const mongoConnectionString = config.MONGOATLAS_URI
+const mongoConnectionString = config.MONGO_CONNECTION_STRING
 mongoose.connect(mongoConnectionString, { useNewUrlParser: true, useCreateIndex: true })
 
 const connection = mongoose.connection
