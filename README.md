@@ -3,7 +3,9 @@ Basic Registration form in MERN stack with reCaptcha
 
 ## Project Info
 Form contains 3 user inputs - Name, email and password. 
+
 If someone from the same IP address tries to register more than 3 times in a day, they are presented with a captcha (Google Recaptcha). The captcha is validated for all subsequent registrations for that IP address. 
+
 If the provided data is valid, then the user details are stored in a Mongo database.
 
 # Backend
