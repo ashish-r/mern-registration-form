@@ -1,3 +1,5 @@
+[![DeepScan grade](https://deepscan.io/api/teams/10012/projects/12695/branches/199338/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=10012&pid=12695&bid=199338)
+
 # mern-registration-form
 Basic Registration form in MERN stack with reCaptcha
 
